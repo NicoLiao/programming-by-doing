@@ -1,6 +1,9 @@
 {
     "java.project.sourcePaths": [
         "BasicAndPrinting/FirstProg",
-        "BasicAndPrinting/AGoodFirstProgram"
+        "BasicAndPrinting/CommentsAndSlashes",
+        "BasicAndPrinting/ALetterToYourself",
+        "BasicAndPrinting/AGoodFirstProgram",
+        "BasicAndPrinting/YourInitials"
     ]
 }
