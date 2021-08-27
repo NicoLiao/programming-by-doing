@@ -9,5 +9,6 @@ public class AGoodFirstProgram {
 		System.out.println( "Yay! Printing." );
 		System.out.println( "I'd much rather you 'not'." );
 		System.out.println( "I \"said\" do not touch this." );
+		System.out.println( "Give me Ayaka I've passed the 5 star pity pien"); //this code prints out the words that are inside the quotes
 	}
 }

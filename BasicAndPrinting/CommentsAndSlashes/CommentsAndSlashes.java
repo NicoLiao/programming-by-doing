@@ -1,4 +1,6 @@
 //BasicAndPrinting CommentsAndSlashes 3pts Nico Liao
+//Nico Liao 2021/8/27
+//comments make people easier to understand what each code is doing
 public class CommentsAndSlashes
 {
     public static void main( String[] args )
