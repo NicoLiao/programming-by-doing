@@ -1,4 +1,4 @@
-//BasicAndPrinting TheForgetfulMachine 12pts Nico Liao
+//BasicAndPrinting TheForgetfulMachine 15pts Nico Liao
 import java.util.Scanner;
 public class NameAgeAndSalary {
     public static void main(String[] args) {
