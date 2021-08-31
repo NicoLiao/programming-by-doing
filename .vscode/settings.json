@@ -1,13 +1,10 @@
 {
     "java.project.sourcePaths": [
         "BasicAndPrinting/YourInitials",
-        "BasicAndPrinting/VariablesAndNames",
-        "BasicAndPrinting/NumbersAndMath",
-        "BasicAndPrinting/MoreVariablesAndPrinting",
         "BasicAndPrinting/FirstProg",
         "BasicAndPrinting/CommentsAndSlashes",
         "BasicAndPrinting/ALetterToYourself",
         "BasicAndPrinting/AGoodFirstProgram",
-        "BasicAndPrinting/UsingVariables"
+        "BasicAndPrinting/NumbersAndMath"
     ]
 }
