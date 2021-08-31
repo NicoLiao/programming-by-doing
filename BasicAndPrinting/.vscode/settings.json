@@ -1,8 +1,9 @@
 {
     "java.project.sourcePaths": [
+        "TheForgetfulMachine",
         "CommentsAndSlashes",
         "AskingQuestions",
         "AGoodFirstProgram",
-        "TheForgetfulMachine"
+        "NameAgeAndSalary"
     ]
 }
