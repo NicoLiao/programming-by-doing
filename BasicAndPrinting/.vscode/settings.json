@@ -1,6 +1,7 @@
 {
     "java.project.sourcePaths": [
+        "CommentsAndSlashes",
         "AGoodFirstProgram",
-        "CommentsAndSlashes"
+        "AskingQuestions"
     ]
 }
