@@ -1,9 +1,12 @@
 {
     "java.project.sourcePaths": [
+        "WhatIf",
         "TheForgetfulMachine",
+        "NameAgeAndSalary",
+        "HowOldAreYou",
         "CommentsAndSlashes",
         "AskingQuestions",
         "AGoodFirstProgram",
-        "NameAgeAndSalary"
+        "ElseAndIf"
     ]
 }
