@@ -1,15 +1,17 @@
 {
     "java.project.sourcePaths": [
         "WhatIf",
+        "TheWorstNumberGame",
         "TheForgetfulMachine",
         "NameAgeAndSalary",
         "HowOldAreYou",
+        "GenderGame",
         "ElseAndIf",
         "CommentsAndSlashes",
         "ChooseYourOwnAdventure",
         "AskingQuestions",
         "ALittleQuiz",
         "AGoodFirstProgram",
-        "GenderGame"
+        "TwentyQuestions"
     ]
 }
