@@ -1,4 +1,4 @@
-//BasicAndPrinting Dice 25pts Nico Liao
+//BasicAndPrinting OneShotHiLo 35pts Nico Liao
 import java.util.*;
 public class OneShotHiLo {
     public static void main(String[] args) {
