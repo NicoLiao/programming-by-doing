@@ -8,13 +8,15 @@
         "NameAgeAndSalary",
         "HowOldAreYou",
         "GenderGame",
+        "FrameWithPanel",
         "ElseAndIf",
+        "Dice",
         "CommentsAndSlashes",
         "ChooseYourOwnAdventure",
         "AskingQuestions",
         "ALittleQuiz",
         "AGoodFirstProgram",
         "ABoringWindow",
-        "FrameWithPanel"
+        "OneShotHiLo"
     ]
 }
