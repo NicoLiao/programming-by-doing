@@ -6,6 +6,7 @@
         "TheWorstNumberGame",
         "TheForgetfulMachine",
         "OneShotHiLo",
+        "NumberGuessingWithCounter",
         "NameAgeAndSalary",
         "LimitedHiLo",
         "KeepGuessing",
@@ -20,6 +21,6 @@
         "ALittleQuiz",
         "AGoodFirstProgram",
         "ABoringWindow",
-        "NumberGuessingWithCounter"
+        "DiceDouble"
     ]
 }
