@@ -5,7 +5,10 @@
         "TwentyQuestions",
         "TheWorstNumberGame",
         "TheForgetfulMachine",
+        "OneShotHiLo",
         "NameAgeAndSalary",
+        "LimitedHiLo",
+        "KeepGuessing",
         "HowOldAreYou",
         "GenderGame",
         "FrameWithPanel",
@@ -17,6 +20,6 @@
         "ALittleQuiz",
         "AGoodFirstProgram",
         "ABoringWindow",
-        "OneShotHiLo"
+        "NumberGuessingWithCounter"
     ]
 }
