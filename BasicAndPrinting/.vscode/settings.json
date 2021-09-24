@@ -5,6 +5,7 @@
         "TwentyQuestions",
         "TheWorstNumberGame",
         "TheForgetfulMachine",
+        "RightTriangle",
         "OneShotHiLo",
         "NumberGuessingWithCounter",
         "NameAgeAndSalary",
@@ -22,6 +23,6 @@
         "ALittleQuiz",
         "AGoodFirstProgram",
         "ABoringWindow",
-        "RightTriangle"
+        "Nim"
     ]
 }
