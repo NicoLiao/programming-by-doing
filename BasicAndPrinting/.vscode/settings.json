@@ -1,29 +1,7 @@
 {
     "java.project.sourcePaths": [
-        "WhatIf",
-        "UsingSwing",
-        "TwentyQuestions",
-        "TheWorstNumberGame",
-        "TheForgetfulMachine",
-        "RightTriangle",
-        "OneShotHiLo",
-        "NumberGuessingWithCounter",
-        "Nim",
-        "NameAgeAndSalary",
-        "LimitedHiLo",
-        "KeepGuessing",
-        "HowOldAreYou",
-        "GenderGame",
-        "FrameWithPanel",
-        "ElseAndIf",
-        "DiceDouble",
-        "Dice",
-        "CommentsAndSlashes",
-        "ChooseYourOwnAdventure",
-        "AskingQuestions",
-        "ALittleQuiz",
-        "AGoodFirstProgram",
-        "ABoringWindow",
-        "FizzBuzz"
+        "FizzBuzz",
+        "Assignment9/ShorterDoubleDice",
+        "Assignment9/AnotherNumberGuessing"
     ]
 }
