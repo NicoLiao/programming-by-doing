@@ -1,11 +1,14 @@
 {
     "java.project.sourcePaths": [
+        "WhileLoop/Nim",
         "FizzBuzz",
         "Assignment9/ShorterDoubleDice",
         "Assignment9/FlipAgain",
         "Assignment9/DoWhileSwimming",
         "Assignment9/AnotherNumberGuessing",
+        "Assignment3/NameAgeAndSalary",
         "Assignment3/AskingQuestions",
-        "Assignment3/NameAgeAndSalary"
+        "Assignment10/NoticingEvenNumber",
+        "ForLoop/AddingValues"
     ]
 }
