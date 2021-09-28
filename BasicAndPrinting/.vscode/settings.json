@@ -8,6 +8,7 @@
         "RightTriangle",
         "OneShotHiLo",
         "NumberGuessingWithCounter",
+        "Nim",
         "NameAgeAndSalary",
         "LimitedHiLo",
         "KeepGuessing",
@@ -23,6 +24,6 @@
         "ALittleQuiz",
         "AGoodFirstProgram",
         "ABoringWindow",
-        "Nim"
+        "FizzBuzz"
     ]
 }
