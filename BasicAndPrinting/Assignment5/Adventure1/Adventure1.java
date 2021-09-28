@@ -1,6 +1,6 @@
-//BasicAndPrinting ChooseYourOwnAdventure 60pts Nico Liao
+//BasicAndPrinting Adventure1 60pts Nico Liao
 import java.util.Scanner;
-public class ChooseYourOwnAdventure {
+public class Adventure1 {
     public static void main(String[] args) {
         Scanner keyboard = new Scanner(System.in);
         String place, place2, yesno;

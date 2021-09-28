@@ -21,6 +21,6 @@ public class AskingQuestions {
 		System.out.print( "How much do you weigh? " );
 		weight = keyboard.nextDouble();
 
-		System.out.println( "So you're " + age + " old, " + feet + "'" + inches + " tall and " + weight + " heavy." );
+		System.out.println( "So you're " + age + " old, " + feet + " ft" + " and " + inches + " inches tall, and " + weight + " heavy." );
     }
 }

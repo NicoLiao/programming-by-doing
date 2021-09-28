@@ -2,8 +2,10 @@
     "java.project.sourcePaths": [
         "FizzBuzz",
         "Assignment9/ShorterDoubleDice",
+        "Assignment9/FlipAgain",
         "Assignment9/DoWhileSwimming",
         "Assignment9/AnotherNumberGuessing",
-        "Assignment9/FlipAgain"
+        "Assignment3/AskingQuestions",
+        "Assignment3/NameAgeAndSalary"
     ]
 }
