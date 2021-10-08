@@ -14,8 +14,5 @@ public class OneShotHiLo {
             System.out.println("Lol You Suck It Was " + x);
         }
 
-
-
-
     }
 }
