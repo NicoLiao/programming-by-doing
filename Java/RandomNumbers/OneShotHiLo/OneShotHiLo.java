@@ -10,8 +10,10 @@ public class OneShotHiLo {
         ans = keyboard.nextInt();
         if (x == ans) {
             System.out.println("You Got It!!!");
-        }else {
-            System.out.println("Lol You Suck It Was " + x);
+        }else if (x < ans) {
+            System.out.println("It was too high, I was thinking of " + x);
+        }else if (x > ans) {
+            System.out.println("It was too low, I was thinking of " + x);
         }
 
     }
