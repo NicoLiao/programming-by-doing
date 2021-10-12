@@ -1,8 +1,9 @@
 {
     "java.project.sourcePaths": [
         "WhileLoop/Nim",
+        "RandomNumbers/OneShotHiLo",
         "Projects/Blackjack",
         "ForLoop/AddingValues",
-        "RandomNumbers/OneShotHiLo"
+        "Functions"
     ]
 }
