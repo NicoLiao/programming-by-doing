@@ -3,7 +3,8 @@
         "WhileLoop/Nim",
         "RandomNumbers/OneShotHiLo",
         "Projects/Blackjack",
+        "Functions",
         "ForLoop/AddingValues",
-        "Functions"
+        "NestedLoop"
     ]
 }
