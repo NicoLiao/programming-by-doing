@@ -1,3 +1,5 @@
+package BasicAndPrinting.CommentsAndSlashes;
+
 //BasicAndPrinting CommentsAndSlashes 3pts Nico Liao
 //Nico Liao 2021/8/27
 //comments make people easier to understand what each code is doing

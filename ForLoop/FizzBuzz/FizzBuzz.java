@@ -1,3 +1,5 @@
+package ForLoop.FizzBuzz;
+
 //ForLoop FizzBuzz 40pts Nico Liao
 public class FizzBuzz {
     public static void main(String[] args) {

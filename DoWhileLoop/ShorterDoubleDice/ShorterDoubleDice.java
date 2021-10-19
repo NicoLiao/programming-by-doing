@@ -1,3 +1,5 @@
+package DoWhileLoop.ShorterDoubleDice;
+
 //DoWhileLoop ShorterDoubleDice 40pts Nico Liao
 import java.util.Random;
 public class ShorterDoubleDice {

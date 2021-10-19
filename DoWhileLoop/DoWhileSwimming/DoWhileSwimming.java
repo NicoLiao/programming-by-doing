@@ -1,3 +1,5 @@
+package DoWhileLoop.DoWhileSwimming;
+
 //DoWhileLoop DoWhileSwimming 15pts Nico Liao
 //1. Yes, they both swim for the same amount of time
 //2. Gallant swims for 0 min while Goofus swims for 1 min

@@ -1,3 +1,5 @@
+package DoWhileLoop.FlipAgain;
+
 //DoWhileLoop FlipAgain 20pts Nico Liao
 //Yes it will still work if we just do step 2 because do-while loop runs the program once first, therefore you don't have to initialize something
 //That is already initialized in the loop. The only reason we need to set a value first is because while loop detects conditions first, which 

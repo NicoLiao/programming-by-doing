@@ -1,3 +1,5 @@
+package ForLoop.NoticingEvenNumber;
+
 //ForLoop NoticingEvenNumber 30pts Nico Liao
 public class NoticingEvenNumber {
     public static void main(String[] args) {

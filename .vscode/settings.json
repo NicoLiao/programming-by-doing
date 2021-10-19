@@ -1,10 +1,11 @@
 {
     "java.project.sourcePaths": [
-        "BasicAndPrinting/YourInitials",
-        "BasicAndPrinting/FirstProg",
-        "BasicAndPrinting/CommentsAndSlashes",
-        "BasicAndPrinting/ALetterToYourself",
-        "BasicAndPrinting/AGoodFirstProgram",
-        "BasicAndPrinting/NumbersAndMath"
+        "WhileLoop/Nim",
+        "RandomNumbers/OneShotHiLo",
+        "Projects/Blackjack",
+        "NestedLoop",
+        "Functions",
+        "ForLoop/AddingValues",
+        ""
     ]
 }

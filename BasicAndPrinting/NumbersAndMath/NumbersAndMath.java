@@ -1,3 +1,5 @@
+package BasicAndPrinting.NumbersAndMath;
+
 //BasicAndPrinting NumbersAndMath 7pts Nico Liao
 public class NumbersAndMath {
     public static void main(String[] args) {

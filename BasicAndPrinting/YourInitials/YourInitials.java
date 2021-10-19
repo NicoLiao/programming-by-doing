@@ -1,3 +1,5 @@
+package BasicAndPrinting.YourInitials;
+
 //BasicAndPrinting YourInitials 6pts Nico Liao
 public class YourInitials {
     public static void main(String[] args) {
