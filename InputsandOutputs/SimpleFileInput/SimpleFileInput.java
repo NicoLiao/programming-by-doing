@@ -1,3 +1,5 @@
+//InputsandOutputs SimpleFileInput 40pts Nico Liao
+
 import java.util.Scanner;
 import java.io.File;
 
@@ -12,7 +14,7 @@ public class SimpleFileInput
 		
 		
 		System.out.println( "Using my psychic powers aided by reading data from the file, I have" );
-		System.out.println( "determined that your name is " +f_name+" "+l_name+"." );
+		System.out.println( "determined that your name is " + f_name + " " + l_name+"." );
 		System.out.println( "Amazing, huh?" );
 	}
 }

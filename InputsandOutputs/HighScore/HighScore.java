@@ -1,3 +1,4 @@
+//InputsandOutputs HighScore 50pts Nico Liao
 import java.util.*;
 import java.io.*;
 public class HighScore{
