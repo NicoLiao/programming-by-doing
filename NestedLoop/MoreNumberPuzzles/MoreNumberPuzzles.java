@@ -1,5 +1,4 @@
 //NestedLoop MoreNumberPuzzles 100pts Nico Liao
-package MoreNumberPuzzles;
 import java.util.*;
 public class MoreNumberPuzzles {
     public static void main(String[] args) {
