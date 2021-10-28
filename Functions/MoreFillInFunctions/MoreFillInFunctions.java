@@ -1,5 +1,4 @@
 //Function MoreFillInFunctions 100pts Nico Liao
-package MoreFillInFunctions;
 // More Fill-In Functions - Fix the broken functions and function calls (again).
 
 import java.util.Scanner;

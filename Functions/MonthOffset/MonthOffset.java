@@ -1,5 +1,4 @@
 //Function MonthOffset 60pts Nico Liao
-package MonthOffset;
 public class MonthOffset
 {
 	public static int month_offset( int month ) {

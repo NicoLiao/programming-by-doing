@@ -1,5 +1,4 @@
 //Function FillInFunctions 100pts Nico Liao
-package FillInFunctions;
 public class FillInFunctions
 {
 	public static void main( String[] args )

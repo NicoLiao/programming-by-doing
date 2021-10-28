@@ -1,5 +1,4 @@
 //Function AreaCalculator 110pts Nico Liao
-package AreaCalculator;
 import java.util.*;
 public class AreaCalculator {
     public static void main(String[] args) {
