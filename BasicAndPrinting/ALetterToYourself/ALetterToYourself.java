@@ -1,4 +1,3 @@
-package BasicAndPrinting.ALetterToYourself;
 
 //BasicAndPrinting ALetterToYourself 7pts Nico Liao
 public class ALetterToYourself {

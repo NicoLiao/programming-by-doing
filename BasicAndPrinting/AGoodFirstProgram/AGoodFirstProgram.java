@@ -1,4 +1,3 @@
-package BasicAndPrinting.AGoodFirstProgram;
 
 //BasicAndPrinting AGoodFirstProgram 4pts Nico Liao
 public class AGoodFirstProgram {

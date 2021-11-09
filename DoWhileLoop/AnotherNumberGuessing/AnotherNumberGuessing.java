@@ -1,4 +1,3 @@
-package DoWhileLoop.AnotherNumberGuessing;
 
 //DoWhileLoop AnotherNumberGuessing 35pts Nico Liao
 import java.util.*;

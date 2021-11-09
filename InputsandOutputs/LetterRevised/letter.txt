@@ -6,5 +6,5 @@
 |                              |
 |                     Nico Liao|
 |               1 Microsoft Way|
-|                       Hsinchu|
+|                       |
 |------------------------------|
