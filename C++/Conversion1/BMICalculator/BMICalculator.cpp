@@ -16,6 +16,4 @@ int main(){
     kg = (kg*0.453592);
     bmi = (kg/(m*m));
     cout << "Your bmi is: " << bmi << endl;
-
-
 }
