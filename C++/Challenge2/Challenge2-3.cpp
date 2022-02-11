@@ -1,28 +1,41 @@
+#include <stdio.h>
 #include <iostream>
 #include <math.h>
-#include <stdio.h>
 using namespace std;
-unsigned long long calculate_sum(int M, int L){
-    unsigned long long result = 0;
-    unsigned long long modulo = 10000000000;
+
+long long power(int a);
  
-    for (int i = M; i <= L; i++) {
-        unsigned long long temp = i;
-        for (int j = 1; j < i; j++) {
-            temp *= i;
-            temp %= modulo;
-        }
-        result += temp;
-        result %= modulo;
+int main()
+{
+    int i, a, b;
+    cout << "Number 1: ";
+    cin >> a;
+    cout << "Number 2: ";
+    cin >> b;
+    long long ans=0;
+     
+    for(i=a; i<=b; i++)
+    {
+        ans=(ans+power(i))%10000000000000;
     }
-    return result; 
-}
-int main(){
-    int M = 0, L = 0;
-    cout  << "Input Minimun Given Number: ";
-    cin >> M;
-    cout << endl << "Input Largest Given Number: ";
-    cin >> L;
-    cout << "Sum of the n^n from " << M << " to " << L << " = " << calculate_sum(M, L) << endl;
+     
+    ans=(ans%10000000000);
+     
+    printf("%lld\n",ans);
+     
     return 0;
+}
+ 
+long long power(int a)
+{
+    int i;
+    long long ans=1;
+     
+    for(i=1; i<=a; i++)
+    {
+        ans*=a;
+        ans=ans%10000000000000;
+    }
+     
+    return ans;
 }
