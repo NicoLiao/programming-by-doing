@@ -23,7 +23,8 @@ int main() {
         }
  
         if (sumOfPowers == i) {
-            cout << i << endl;
+            result += i;
         }
     }
+    cout << result;
 }
