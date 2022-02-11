@@ -4,24 +4,7 @@
 #include <string>  
 
 using namespace std;
-// int fourth() {
-//     int x = 1, len, sum;
-//     string str;
-//     while(x < 10000) {
-//         x++;
-//         str = to_string(x);
-//         for(int i=0; i<str.size(); i++) {
-//             sum += pow((str[i]-'0'), 4);
-//         }
-//         if(x == sum) {
-//             return x;
-//         }
-//     }
-// }
 
-// int main() {
-//     fourth();
-// }
 int main() {
     int result = 0;
  
