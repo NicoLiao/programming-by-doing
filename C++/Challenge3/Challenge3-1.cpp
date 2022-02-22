@@ -8,7 +8,7 @@ using namespace std;
 int main() {
     int result = 0;
  
-    for (int i = 2; i < 355000; i++) { 
+    for (int i = 2; i < 10000000; i++) { 
         int sumOfPowers = 0; int number = i; 
         while (number > 0) {
             int d = number % 10;
