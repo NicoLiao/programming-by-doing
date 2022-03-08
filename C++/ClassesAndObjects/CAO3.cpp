@@ -5,37 +5,6 @@
 #include <stdio.h>
 #include <numeric>
 using namespace std;
-int main() {
-    srand(time(NULL));
-    cout << "Student 1:" << endl;
-    Student std1("Student 1: ", 16, 9, 'f');
-    std1.setGrade("Math", rand() % 100+1);
-    std1.setGrade("Science", rand() % 100+1);
-    std1.setGrade("Social Study", rand() % 100+1);
-    std1.setGrade("English", rand() % 100+1);
-    std1.calcGPA();
-    std1.printGrades();
-    std1.getGPA();
-    cout << endl << endl << "Student 2: " << endl;
-        Student std2("Student 2: ", 16, 9, 'M');
-        std2.setGrade("Science", rand() % 100+1);
-        std2.setGrade("Social Study", rand() % 100+1);
-        std2.setGrade("English", rand() % 100+1);
-        std2.setGrade("Math", rand() % 100+1);
-        std2.calcGPA();
-        std2.printGrades();
-        std2.getGPA();
-        int bigger;
-        if (std1.getGPA() > std2.getGPA()) {
-            bigger = std1.getGPA() - std2.getGPA();
-            cout << endl << "Student 1 has a better GPA, it is " << bigger << "points higher than Student 2." << endl;
-        } else if(std2.getGPA() < std1.getGPA()) {
-            bigger = std2.getGPA() - std1.getGPA();
-            cout << endl << "Student 2 has a better GPA, it is " << bigger << " points higher than Student 1." << endl;
-        } else {
-            cout << endl << "They have the same GPA" << endl;
-        }
-}
 class Student {
     private: 
         string Name;
@@ -77,3 +46,35 @@ class Student {
             return GPA;
         }
 };
+
+int main() {
+    srand(time(NULL));
+    cout << "Student 1:" << endl;
+    Student std1("Student 1: ", 16, 9, 'f');
+    std1.setGrade("Math", rand() % 100+1);
+    std1.setGrade("Science", rand() % 100+1);
+    std1.setGrade("Social Study", rand() % 100+1);
+    std1.setGrade("English", rand() % 100+1);
+    std1.calcGPA();
+    std1.printGrades();
+    std1.getGPA();
+    cout << endl << endl << "Student 2: " << endl;
+        Student std2("Student 2: ", 16, 9, 'M');
+        std2.setGrade("Science", rand() % 100+1);
+        std2.setGrade("Social Study", rand() % 100+1);
+        std2.setGrade("English", rand() % 100+1);
+        std2.setGrade("Math", rand() % 100+1);
+        std2.calcGPA();
+        std2.printGrades();
+        std2.getGPA();
+        int bigger;
+        if (std1.getGPA() > std2.getGPA()) {
+            bigger = std1.getGPA() - std2.getGPA();
+            cout << endl << "Student 1 has a better GPA, it is " << bigger << "points higher than Student 2." << endl;
+        } else if(std2.getGPA() < std1.getGPA()) {
+            bigger = std2.getGPA() - std1.getGPA();
+            cout << endl << "Student 2 has a better GPA, it is " << bigger << " points higher than Student 1." << endl;
+        } else {
+            cout << endl << "They have the same GPA" << endl;
+        }
+}
