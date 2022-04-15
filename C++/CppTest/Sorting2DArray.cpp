@@ -1,61 +1,59 @@
 #include <iostream>
 #include <ctime>
 using namespace std;
-#include<bits/stdc++.h>
+int main() {
+    int numCols, numRows, temp = 0;
+    srand(time(NULL));
+    cout << "Number of Columns: ";
+    cin >> numCols;
+    cout << "Number of Rows: ";
+    cin >> numRows;
+    int AR[numRows][numCols];
 
-void sortString(string &str)
-    {
-        sort(str.begin(), str.end());
-        cout << str;
-    }
-
-
-int main (){
-    int n, m;
-
-    cout << "Welcome to the Alphabet Sorter!\nEnter Size (enter 0 0 to exit):"<<endl;
-    cin >> n; cin >> m; 
-
-    char arr [n] [m] = {};
-    char alph [] = {'a','b','c','d','e','f','g','h','i','j','k','l','m','n','o','p','q','r','s','t','u','v','w','x','y','z'};
-
-    char c;
-    int r;
-
-
-
-    cout << "Generated Array: " << endl;
-    srand (time(NULL));
-    for (int i=0;  i < n; i++) {    
-        for (int j = 0; j < m; j++){
-            r = rand() % 26;
-            c = 'a' + r; 
-            arr [i][j] = c;
-            cout << arr [i][j] << " ";
+    for(int i = 0; i < numRows; i++) {
+        for(int j = 0; j < numCols; j++) {
+            AR[i][j] = rand()%26+97;
+            cout << char(AR[i][j]) << " ";
         }
         cout << endl;
     }
-    
 
-
-    
-    
-    cout << endl << "Sorted Array: " << endl;
-    
-
-
-    for (int i = 0; i < 26; i++){
-        for (int j = 0; j < n; j++){
-            for (int k = 0; k < n; k++){
-                if (arr[i][j] == alph[k]){
-
-
+for(int m = 0; m < numRows*numCols; m++) {
+        for(int k = 0; k < numRows; k++) {
+            for(int l = 0; l < numCols-1; l++) {
+                
+                if(AR[k][l] > AR[k][l+1]) {
+                    temp = AR[k][l];
+                    AR[k][l] = AR[k][l+1];
+                    AR[k][l+1] = temp;
+                }
+            }
+        }
+            
+    for(int o = 0; o < numCols; o++) {
+        for(int p = 0; p < numRows-1; p++) {
+            if(o%2 == 0) {
+                if(AR[p][o] > AR[p+1][o]) { 
+                    temp = AR[p][o];
+                    AR[p][o] = AR[p+1][o];
+                    AR[p+1][o] = temp;
+                }
+            }else {
+                if(AR[p][o] < AR[p+1][o]) {
+                    temp = AR[p][o];
+                    AR[p][o] = AR[p+1][o]; 
+                    AR[p+1][o] = temp;
                 }
             }
         }
     }
+}
 
-
-    
-
+    cout << "Array after sorting" << endl;
+    for(int i = 0; i < numRows; i++) {
+        for(int j = 0; j < numCols; j++) {
+            cout << char(AR[i][j]) << " ";
+        }
+        cout << endl;
+    }
 }
