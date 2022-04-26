@@ -49,7 +49,14 @@ void circle(int x) {
 
 }
 int main(){
-    
+    void (*ptriangle)(int x, int y);
+    ptriangle = triangle;
+    void (*prect)(int x, int y);
+    prect = rect;
+    void (*psquare)(int n);
+    psquare = square;
+    void (*pcircle)(int n);
+    pcircle = circle;
     cout << "Shape Area Calculator version 0.1 (c) 2005 Mitchell Sample Output, Inc." << endl;
     cout << "\n";
     cout << "-=-=-=-=-=-=-=-=-=-=-=-=-=-=-" << endl << endl;
@@ -59,16 +66,16 @@ int main(){
 
         switch (choice) {
             case 1: 
-                triangle(5 , 6);
+                ptriangle(5 , 6);
                 break;
             case 2: 
-                rect(5, 6);
+                prect(5, 6);
                 break;
             case 3:
-                square(5);
+                psquare(5);
                 break;
             case 4:
-                circle(5);
+                pcircle(5);
                 break;
             case 5: 
                 break;

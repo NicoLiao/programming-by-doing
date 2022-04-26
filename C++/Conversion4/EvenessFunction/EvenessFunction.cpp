@@ -13,13 +13,17 @@ bool isDivisibleBy3(int n) {
 }
 int main()
 {
+    bool (*Even)(int n);
+    Even = isEven;
+    bool (*D3)(int n);
+    D3 = isDivisibleBy3;
     for(int i = 0; i <= 20; i++) {
         cout << i << " ";
-        if(isEven(i) && isDivisibleBy3(i)) {
+        if(Even(i) && D3(i)) {
             cout << "<=";
-        }else if(isEven(i)) {
+        }else if(Even(i)) {
             cout << "<";
-        }else if(isDivisibleBy3(i)) {
+        }else if(D3(i)) {
             cout << "=";
         }
         cout << endl;
